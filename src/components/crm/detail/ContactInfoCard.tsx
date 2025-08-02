@@ -2,12 +2,15 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { FaRegAddressBook } from "react-icons/fa";
+
 
 export default function ContactInfoCard() {
   return (
-    <Card className="shadow-soft border-0 bg-white/80 backdrop-blur-sm">
-      <CardHeader className="text-black rounded-t-lg">
-        <CardTitle className="text-lg">連絡先情報</CardTitle>
+    <Card className="shadow-soft border-0 bg-gradient-to-br from-white to-blue-50/30 backdrop-blur-sm hover:shadow-lg transition-all duration-300">
+      <CardHeader className="flex items-center gap-2">
+        <FaRegAddressBook className="w-5 h-5 text-blue-600" />
+        <CardTitle className="text-lg text-gray-900">連絡先情報</CardTitle>
       </CardHeader>
       <CardContent className="p-6 space-y-4">
         
