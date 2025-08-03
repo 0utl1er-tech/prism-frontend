@@ -44,11 +44,12 @@ export default function ContactInfoCard() {
                 <TableCell>1</TableCell>
               </TableRow>
               <TableRow className="hover:bg-gray-50 transition-colors">
-                <TableCell className="font-medium">2025/05/28</TableCell>
+                <TableCell className="font-medium">08067653769</TableCell>
                 <TableCell>佐藤忍</TableCell>
+                <TableCell>1</TableCell>
               </TableRow>
               <TableRow className="hover:bg-gray-50 transition-colors">
-                <TableCell className="font-medium">2025/05/20</TableCell>
+                <TableCell className="font-medium">09098366284</TableCell>
                 <TableCell>佐藤忍</TableCell>
               </TableRow>
             </TableBody>

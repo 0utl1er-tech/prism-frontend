@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 
 export default function Navbar() {
   return (
@@ -8,7 +7,6 @@ export default function Navbar() {
         <Image src="/logo.png" alt="logo" width={100} height={80} />
       </div>
       <div className="flex items-center">
-        <Button>ログイン</Button>
       </div>
     </div>
   );
