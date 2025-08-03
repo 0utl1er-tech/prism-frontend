@@ -20,6 +20,7 @@ export default function CallManagementCard() {
                 <TableRow className="bg-gradient-to-r from-blue-800 to-blue-900 text-white">
                   <TableHead className="text-white font-medium">日付</TableHead>
                   <TableHead className="text-white font-medium">時刻</TableHead>
+                  <TableHead className="text-white font-medium">電話番号</TableHead>
                   <TableHead className="text-white font-medium">コール者</TableHead>
                   <TableHead className="text-white font-medium">コール結果</TableHead>
                   <TableHead className="text-white font-medium">営業メモ</TableHead>
@@ -29,23 +30,18 @@ export default function CallManagementCard() {
                 <TableRow className="bg-yellow-100 hover:bg-yellow-200 transition-colors">
                   <TableCell className="font-medium">2025/06/06</TableCell>
                   <TableCell>16:19</TableCell>
+                  <TableCell>08067653769</TableCell>
                   <TableCell>佐藤忍</TableCell>
                   <TableCell><Badge variant="secondary" className="bg-blue-100 text-blue-800">見込S</Badge></TableCell>
                   <TableCell className="text-sm">連絡あり 6日中に補填についてSMS送る</TableCell>
                 </TableRow>
-                <TableRow className="hover:bg-gray-50 transition-colors">
-                  <TableCell className="font-medium">2025/05/28</TableCell>
-                  <TableCell>17:21</TableCell>
+                <TableRow className="transition-colors">
+                  <TableCell className="font-medium">2025/06/06</TableCell>
+                  <TableCell>16:19</TableCell>
+                  <TableCell>08067653769</TableCell>
                   <TableCell>佐藤忍</TableCell>
                   <TableCell><Badge variant="secondary" className="bg-blue-100 text-blue-800">見込S</Badge></TableCell>
-                  <TableCell className="text-sm">6月末CB 決済の証跡として領収書くれた</TableCell>
-                </TableRow>
-                <TableRow className="hover:bg-gray-50 transition-colors">
-                  <TableCell className="font-medium">2025/05/20</TableCell>
-                  <TableCell>13:04</TableCell>
-                  <TableCell>佐藤忍</TableCell>
-                  <TableCell><Badge variant="secondary" className="bg-blue-100 text-blue-800">見込S</Badge></TableCell>
-                  <TableCell className="text-sm">ぐろぱの対応 CB補填必須</TableCell>
+                  <TableCell className="text-sm">連絡あり 6日中に補填についてSMS送る</TableCell>
                 </TableRow>
               </TableBody>
             </Table>

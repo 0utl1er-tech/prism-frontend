@@ -13,7 +13,7 @@ export default function ContactInfoCard() {
         <CardTitle className="text-lg text-gray-900">連絡先情報</CardTitle>
       </CardHeader>
       <CardContent className="p-6 space-y-4">
-        
+
         {/* 電話番号 */}
         <div className="space-y-2">
           <label className=" font-medium text-gray-700">代表番号</label>
@@ -32,25 +32,18 @@ export default function ContactInfoCard() {
           <Table>
             <TableHeader>
               <TableRow className="bg-gradient-to-r from-blue-800 to-blue-900 text-white">
-                <TableHead className="text-white font-medium">電話番号</TableHead>
                 <TableHead className="text-white font-medium">連絡先</TableHead>
+                <TableHead className="text-white font-medium">メール</TableHead>
+                <TableHead className="text-white font-medium">電話番号</TableHead>
                 <TableHead className="text-white font-medium">架電回数</TableHead>
               </TableRow>
             </TableHeader>
             <TableBody>
-              <TableRow className="bg-yellow-100 hover:bg-yellow-200 transition-colors">
+              <TableRow>
+                <TableCell>佐藤忍</TableCell>
+                <TableCell>sato@sns-master.jp</TableCell>
                 <TableCell>09098366284</TableCell>
-                <TableCell>佐藤忍</TableCell>
                 <TableCell>1</TableCell>
-              </TableRow>
-              <TableRow className="hover:bg-gray-50 transition-colors">
-                <TableCell className="font-medium">08067653769</TableCell>
-                <TableCell>佐藤忍</TableCell>
-                <TableCell>1</TableCell>
-              </TableRow>
-              <TableRow className="hover:bg-gray-50 transition-colors">
-                <TableCell className="font-medium">09098366284</TableCell>
-                <TableCell>佐藤忍</TableCell>
               </TableRow>
             </TableBody>
           </Table>
